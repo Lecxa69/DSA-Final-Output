@@ -1,0 +1,7 @@
+This Java program creates a tree made of connected points (nodes). 
+Each point (node) has a number and can have two more points connected to it (left and right). 
+The code figures out how many end-points (nodes without connections) are in this tree. 
+It does this by checking each point: if it doesn't have any connected points, it's an end-point. 
+The code then adds up all these end-points to find the total count. Finally, it shows this count, revealing how many end-points there are in the tree structure created.
+
+

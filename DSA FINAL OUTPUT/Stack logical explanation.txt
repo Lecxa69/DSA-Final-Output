@@ -1,0 +1,4 @@
+This Java program uses a concept called a "stack," similar to a pile of books. 
+It offers a menu for three actions: adding (pushing) a book onto the stack, removing (popping) the top book from the stack, 
+and displaying all the books currently in the stack. Users choose an action, and the program carries out that action based on their selection. 
+It repeats these options continuously, allowing users to manage and see the books in the stack as they wish.

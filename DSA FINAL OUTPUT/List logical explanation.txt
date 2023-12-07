@@ -1,0 +1,3 @@
+This Java program uses a list to manage numbers. It starts by creating a list and adds three numbers: 5, 10, and 15. 
+Then, it shows these numbers. After that, it puts the number 8 in the second position and removes the number in the third position. Finally, it displays the updated list. 
+Essentially, the program adds, removes, and changes numbers in a list and then shows the modified list.

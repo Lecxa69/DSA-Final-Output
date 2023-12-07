@@ -1,0 +1,14 @@
+
+The Java program creates a family tree-like structure using code. 
+It counts and shows the total number of endpoints, called "leaf nodes," in this tree. The code uses three classes: Node, Tree, and Main.
+
+
+The Node class defines each person in the tree with a unique character. It connects people as parents and children.
+
+
+The Tree class manages the tree-related operations, especially counting the number of leaf nodes. Leaf nodes are individuals without children.
+
+
+The Main class is where the tree gets created and filled with characters representing family members. 
+Then it calculates and displays the total count of individuals with no children (leaf nodes) within the family tree structure. 
+This program provides an easy way to visualize and count the ends of the family branches in a tree-like structure.

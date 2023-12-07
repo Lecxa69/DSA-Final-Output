@@ -1,0 +1,4 @@
+This Java program uses a queue (like a line) to store numbers from 1 to 10. 
+It then displays the binary representations of these numbers. 
+For each number, it calculates its binary form (0s and 1s) and ensures each binary number is exactly four digits long. 
+Finally, it shows these binary representations. Essentially, it puts numbers in a line, turns them into binary (4 digits each), and then displays these binary numbers.

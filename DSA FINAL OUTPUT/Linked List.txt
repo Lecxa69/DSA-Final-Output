@@ -1,0 +1,99 @@
+import java.util.Scanner;
+public class CreateList {  
+    
+    public class Node{  
+        int data;  
+        Node next;  
+        public Node(int data) {  
+            this.data = data;  
+        }  
+    }  
+  
+     
+    public Node head = null;  
+    public Node tail = null;  
+  
+     
+    public void add(int data){  
+        
+        Node newNode = new Node(data);  
+         
+        if(head == null) {  
+             
+            head = newNode;  
+            tail = newNode;  
+            newNode.next = head;  
+        }  
+        else {  
+             
+            tail.next = newNode;  
+             
+            tail = newNode;  
+             
+            tail.next = head;  
+        }  
+    }  
+  
+      
+    public void display() {  
+        Node current = head;  
+        if(head == null) {  
+            System.out.println("List is empty");  
+        }  
+        else {  
+            System.out.println("Nodes of the circular linked list: ");  
+             do{  
+                  
+                System.out.print(" "+ current.data);  
+                current = current.next;  
+            }while(current != head);  
+            System.out.println();  
+        }  
+    }  
+  
+    public static void main(String[] args) {  
+		
+		Scanner input = new Scanner(System.in);
+        System.out.print("Enter data for 1st node: ");
+        int data1 = input.nextInt();
+		System.out.print("Enter data for 2nd node: ");
+        int data2 = input.nextInt();
+        CreateList cl = new CreateList();  
+       	System.out.print("Enter data for 3rd node: ");
+        int data3 = input.nextInt();
+        	System.out.print("Enter data for 4th node: ");
+        int data4 = input.nextInt();
+        	System.out.print("Enter data for 5th node: ");
+        int data5 = input.nextInt();
+        	System.out.print("Enter data for 6th node: ");
+        int data6 = input.nextInt();
+        	System.out.print("Enter data for 7th node: ");
+        int data7 = input.nextInt();
+        	System.out.print("Enter data for 8th node: ");
+        int data8 = input.nextInt();
+        	System.out.print("Enter data for 9th node: ");
+        int data9 = input.nextInt();
+        
+      
+        
+         
+        cl.add(data1);  
+        cl.add(data2);  
+        cl.add(data3);
+        cl.add(data4);  
+        cl.add(data5);
+        cl.add(data6);
+        cl.add(data7);
+        cl.add(data8);
+        cl.add(data9);
+         
+        
+       int sum;
+       
+       sum=data1+data2+data3+data4+data5+data6+data7+data8+data9;
+       
+      System.out.print("sum of all nodes"  + sum);
+      
+        cl.display();  
+    }
+}

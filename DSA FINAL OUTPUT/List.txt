@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class ListExample {
+    public static void main(String[] args) {
+        
+        List<Integer> myList = new ArrayList<>();  
+
+        
+        myList.add(5);
+        myList.add(10);
+        myList.add(15);
+
+        
+        System.out.print("List: ");
+        for (Integer value : myList) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+
+        
+        myList.add(1, 8); 
+
+       
+        myList.remove(2); 
+
+       
+        System.out.print("Modified List: ");
+        for (Integer value : myList) {
+            System.out.print(value + " ");
+        }
+        System.out.println();
+    }
+}

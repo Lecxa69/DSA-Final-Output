@@ -1,0 +1,5 @@
+This Java program creates a graph using numbers to represent points (vertices) and lines (edges) between them. 
+Initially, it sets up a graph with vertices numbered from 1 to 5 and connects them in different ways. 
+Then, it expands the graph by adding more points (vertices 6 to 10) and lines (edges) to link them together. 
+Finally, the program shows all the connections (edges) in the graph by printing out the starting and ending points for each line. 
+Essentially, this code helps build and display a graph with connected points and lines between them.

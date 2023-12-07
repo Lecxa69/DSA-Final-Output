@@ -1,0 +1,5 @@
+The program is a simple circular linked list builder in Java. 
+It creates a list where each item (node) holds a number. 
+It starts by asking the user for nine numbers, creates a circular list from these inputs, and calculates the total of these numbers. 
+After that, it displays both the total sum of the numbers and the entire circular list. 
+Overall, it's a basic program that builds a circular list of numbers and shows the total of those numbers.
